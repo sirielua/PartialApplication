@@ -9,7 +9,7 @@ const defineCoffeeType = volume => strength => coffee(volume, strength);
 // Define coffee type espresso which volume should equal 50ml.
 // Define coffee type americano which volume should equal 150ml.
 
-const espresso = null;
-const americano = null;
+const espresso = defineCoffeeType(50);
+const americano = defineCoffeeType(150);
 
 module.exports = { espresso, americano };
